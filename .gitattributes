@@ -1,3 +1,4 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
+CHLinBinaryFW/Linclasses/linphone-sdk/linphone-sdk/* filter=lfs diff=lfs merge=lfs -text
 CHLinBinaryFW/Linclasses/* filter=lfs diff=lfs merge=lfs -text
 linphone filter=lfs diff=lfs merge=lfs -text
