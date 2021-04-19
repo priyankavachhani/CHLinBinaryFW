@@ -10,6 +10,178 @@
 		18661F97262C509800CEB929 /* CHLinBinaryFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18661F8D262C509800CEB929 /* CHLinBinaryFW.framework */; };
 		18661F9C262C509800CEB929 /* CHLinBinaryFWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18661F9B262C509800CEB929 /* CHLinBinaryFWTests.m */; };
 		18661F9E262C509800CEB929 /* CHLinBinaryFW.h in Headers */ = {isa = PBXBuildFile; fileRef = 18661F90262C509800CEB929 /* CHLinBinaryFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186620ED262C71B000CEB929 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 186620BF262C71B000CEB929 /* libstdc++.6.0.9.tbd */; };
+		186620EE262C71B000CEB929 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620C1262C71B000CEB929 /* Contact.m */; };
+		186620EF262C71B000CEB929 /* IASKSettingsStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620C2262C71B000CEB929 /* IASKSettingsStore.h */; };
+		186620F0262C71B000CEB929 /* PhoneMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620C3262C71B000CEB929 /* PhoneMainView.h */; };
+		186620F1262C71B000CEB929 /* LinphoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620C4262C71B000CEB929 /* LinphoneManager.m */; };
+		186620F2262C71B000CEB929 /* ProviderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620C5262C71B000CEB929 /* ProviderDelegate.h */; };
+		186620F3262C71B000CEB929 /* LinphoneCoreSettingsStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620C6262C71B000CEB929 /* LinphoneCoreSettingsStore.h */; };
+		186620F4262C71B000CEB929 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620C8262C71B000CEB929 /* Log.m */; };
+		186620F5262C71B000CEB929 /* AudioHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620C9262C71B000CEB929 /* AudioHelper.h */; };
+		186620F6262C71B000CEB929 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620CA262C71B000CEB929 /* Utils.h */; };
+		186620F7262C71B000CEB929 /* FastAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620CB262C71B000CEB929 /* FastAddressBook.m */; };
+		186620F8262C71B000CEB929 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620CC262C71B000CEB929 /* Utils.m */; };
+		186620F9262C71B000CEB929 /* AudioHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620CD262C71B000CEB929 /* AudioHelper.m */; };
+		186620FA262C71B000CEB929 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620CE262C71B000CEB929 /* Log.h */; };
+		186620FB262C71B000CEB929 /* FastAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620CF262C71B000CEB929 /* FastAddressBook.h */; };
+		186620FC262C71B000CEB929 /* Contact.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620D0262C71B000CEB929 /* Contact.h */; };
+		186620FD262C71B000CEB929 /* LinphoneManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620D1262C71B000CEB929 /* LinphoneManager.h */; };
+		186620FE262C71B000CEB929 /* PhoneMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620D2262C71B000CEB929 /* PhoneMainView.m */; };
+		186620FF262C71B000CEB929 /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620D3262C71B000CEB929 /* IASKSettingsStore.m */; };
+		18662100262C71B000CEB929 /* ProviderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620D4262C71B000CEB929 /* ProviderDelegate.m */; };
+		18662101262C71B000CEB929 /* LinphoneCoreSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620D5262C71B000CEB929 /* LinphoneCoreSettingsStore.m */; };
+		18662102262C71B000CEB929 /* PhoneMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186620D6262C71B000CEB929 /* PhoneMainView.xib */; };
+		18662103262C71B000CEB929 /* linphonerc~ipad in Resources */ = {isa = PBXBuildFile; fileRef = 186620D8262C71B000CEB929 /* linphonerc~ipad */; };
+		18662104262C71B000CEB929 /* assistant_external_sip.rc in Resources */ = {isa = PBXBuildFile; fileRef = 186620D9262C71B000CEB929 /* assistant_external_sip.rc */; };
+		18662105262C71B000CEB929 /* linphonerc-factory in Resources */ = {isa = PBXBuildFile; fileRef = 186620DA262C71B000CEB929 /* linphonerc-factory */; };
+		18662106262C71B000CEB929 /* linphonerc in Resources */ = {isa = PBXBuildFile; fileRef = 186620DB262C71B000CEB929 /* linphonerc */; };
+		18662107262C71B000CEB929 /* assistant_remote.rc in Resources */ = {isa = PBXBuildFile; fileRef = 186620DC262C71B000CEB929 /* assistant_remote.rc */; };
+		18662108262C71B000CEB929 /* HSUAudioDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620DE262C71B000CEB929 /* HSUAudioDataProvider.h */; };
+		18662109262C71B000CEB929 /* HSUAudioCacheControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620DF262C71B000CEB929 /* HSUAudioCacheControl.m */; };
+		1866210A262C71B000CEB929 /* HSUAudioStreamPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620E0262C71B000CEB929 /* HSUAudioStreamPlayer.m */; };
+		1866210B262C71B000CEB929 /* HSUAudioNetworkControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620E1262C71B000CEB929 /* HSUAudioNetworkControl.m */; };
+		1866210C262C71B000CEB929 /* HSUAudioDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620E2262C71B000CEB929 /* HSUAudioDataProvider.m */; };
+		1866210D262C71B000CEB929 /* HSUAudioStreamPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620E3262C71B000CEB929 /* HSUAudioStreamPlayer.h */; };
+		1866210E262C71B000CEB929 /* HSUAudioCacheControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620E4262C71B000CEB929 /* HSUAudioCacheControl.h */; };
+		1866210F262C71B000CEB929 /* HSUAudioNetworkControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620E5262C71B000CEB929 /* HSUAudioNetworkControl.h */; };
+		18662110262C71B000CEB929 /* InAppSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186620E7262C71B000CEB929 /* InAppSettings.bundle */; };
+		18662111262C71B000CEB929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620E9262C71B000CEB929 /* main.m */; };
+		18662112262C71B000CEB929 /* Lin_Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 186620EB262C71B000CEB929 /* Lin_Utility.m */; };
+		18662113262C71B000CEB929 /* Lin_Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 186620EC262C71B000CEB929 /* Lin_Utility.h */; };
+		186621E8262D415700CEB929 /* nowebcamVGA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866215B262D415600CEB929 /* nowebcamVGA.jpg */; };
+		186621E9262D415700CEB929 /* nowebcamCIF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866215C262D415600CEB929 /* nowebcamCIF.jpg */; };
+		186621EA262D415700CEB929 /* linphonesiteqr_captured.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866215D262D415600CEB929 /* linphonesiteqr_captured.jpg */; };
+		186621EB262D415700CEB929 /* linphonesiteqr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866215E262D415600CEB929 /* linphonesiteqr.jpg */; };
+		186621EC262D415700CEB929 /* linphone.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1866215F262D415600CEB929 /* linphone.svg */; };
+		186621ED262D415700CEB929 /* local_tester_hosts in Resources */ = {isa = PBXBuildFile; fileRef = 18662160262D415600CEB929 /* local_tester_hosts */; };
+		186621EE262D415700CEB929 /* thousand_vcards.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 18662162262D415600CEB929 /* thousand_vcards.vcf */; };
+		186621EF262D415700CEB929 /* vcards.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 18662163262D415600CEB929 /* vcards.vcf */; };
+		186621F0262D415700CEB929 /* agent.pem in Resources */ = {isa = PBXBuildFile; fileRef = 18662166262D415600CEB929 /* agent.pem */; };
+		186621F1262D415700CEB929 /* openssl-altname.cnf in Resources */ = {isa = PBXBuildFile; fileRef = 18662167262D415600CEB929 /* openssl-altname.cnf */; };
+		186621F2262D415700CEB929 /* cafile.pem in Resources */ = {isa = PBXBuildFile; fileRef = 18662168262D415600CEB929 /* cafile.pem */; };
+		186621F3262D415700CEB929 /* openssl-cn.cnf in Resources */ = {isa = PBXBuildFile; fileRef = 1866216A262D415600CEB929 /* openssl-cn.cnf */; };
+		186621F4262D415700CEB929 /* agent.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1866216B262D415600CEB929 /* agent.pem */; };
+		186621F5262D415700CEB929 /* cafile.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1866216C262D415600CEB929 /* cafile.pem */; };
+		186621F6262D415700CEB929 /* cert2-signed-by-other-ca.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1866216E262D415600CEB929 /* cert2-signed-by-other-ca.pem */; };
+		186621F7262D415700CEB929 /* cert3.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1866216F262D415600CEB929 /* cert3.pem */; };
+		186621F8262D415700CEB929 /* cert2.pem in Resources */ = {isa = PBXBuildFile; fileRef = 18662170262D415600CEB929 /* cert2.pem */; };
+		186621F9262D415700CEB929 /* key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 18662171262D415600CEB929 /* key.pem */; };
+		186621FA262D415700CEB929 /* key3.pem in Resources */ = {isa = PBXBuildFile; fileRef = 18662172262D415600CEB929 /* key3.pem */; };
+		186621FB262D415700CEB929 /* key2.pem in Resources */ = {isa = PBXBuildFile; fileRef = 18662173262D415600CEB929 /* key2.pem */; };
+		186621FC262D415700CEB929 /* cert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 18662174262D415600CEB929 /* cert.pem */; };
+		186621FD262D415700CEB929 /* hello8000.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 18662176262D415600CEB929 /* hello8000.mkv */; };
+		186621FE262D415700CEB929 /* hello44100.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18662177262D415600CEB929 /* hello44100.wav */; };
+		186621FF262D415700CEB929 /* vrroom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18662178262D415600CEB929 /* vrroom.wav */; };
+		18662200262D415700CEB929 /* ahbahouaismaisbon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18662179262D415600CEB929 /* ahbahouaismaisbon.wav */; };
+		18662201262D415700CEB929 /* hello8000.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1866217A262D415600CEB929 /* hello8000.wav */; };
+		18662202262D415700CEB929 /* sintel_trailer_opus_h264.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 1866217B262D415600CEB929 /* sintel_trailer_opus_h264.mkv */; };
+		18662203262D415700CEB929 /* sintel_trailer_opus_vp8.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 1866217C262D415600CEB929 /* sintel_trailer_opus_vp8.mkv */; };
+		18662204262D415700CEB929 /* oldphone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1866217D262D415600CEB929 /* oldphone.wav */; };
+		18662205262D415700CEB929 /* ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1866217E262D415600CEB929 /* ringback.wav */; };
+		18662206262D415700CEB929 /* hello8000_mkv_ref.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1866217F262D415600CEB929 /* hello8000_mkv_ref.wav */; };
+		18662207262D415700CEB929 /* sintel_trailer_pcmu_h264.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 18662180262D415600CEB929 /* sintel_trailer_pcmu_h264.mkv */; };
+		18662208262D415700CEB929 /* tester_hosts in Resources */ = {isa = PBXBuildFile; fileRef = 18662181262D415600CEB929 /* tester_hosts */; };
+		18662209262D415700CEB929 /* messages.db in Resources */ = {isa = PBXBuildFile; fileRef = 18662183262D415600CEB929 /* messages.db */; };
+		1866220A262D415700CEB929 /* linphone.db in Resources */ = {isa = PBXBuildFile; fileRef = 18662184262D415600CEB929 /* linphone.db */; };
+		1866220B262D415700CEB929 /* friends.db in Resources */ = {isa = PBXBuildFile; fileRef = 18662185262D415600CEB929 /* friends.db */; };
+		1866220C262D415700CEB929 /* chatrooms.db in Resources */ = {isa = PBXBuildFile; fileRef = 18662186262D415600CEB929 /* chatrooms.db */; };
+		1866220D262D415700CEB929 /* sip_update_within_icoming_reinvite_with_no_sdp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 18662188262D415600CEB929 /* sip_update_within_icoming_reinvite_with_no_sdp.xml */; };
+		1866220E262D415700CEB929 /* call_with_multiple_audio_mline_in_sdp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 18662189262D415600CEB929 /* call_with_multiple_audio_mline_in_sdp.xml */; };
+		1866220F262D415700CEB929 /* call_with_video_mline_before_audio_in_sdp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1866218A262D415600CEB929 /* call_with_video_mline_before_audio_in_sdp.xml */; };
+		18662210262D415700CEB929 /* call_invite_200ok_without_contact_header.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1866218B262D415600CEB929 /* call_invite_200ok_without_contact_header.xml */; };
+		18662211262D415700CEB929 /* call_with_audio_mline_before_video_in_sdp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1866218C262D415600CEB929 /* call_with_audio_mline_before_video_in_sdp.xml */; };
+		18662212262D415700CEB929 /* call_with_multiple_video_mline_in_sdp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1866218D262D415600CEB929 /* call_with_multiple_video_mline_in_sdp.xml */; };
+		18662213262D415700CEB929 /* marie_dependent_proxy_rc in Resources */ = {isa = PBXBuildFile; fileRef = 1866218F262D415600CEB929 /* marie_dependent_proxy_rc */; };
+		18662214262D415700CEB929 /* pauline_zrtp_aes256_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662190262D415600CEB929 /* pauline_zrtp_aes256_rc */; };
+		18662215262D415700CEB929 /* marie_remote_default_values_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662191262D415600CEB929 /* marie_remote_default_values_rc */; };
+		18662216262D415700CEB929 /* marie_remote_localfile_android_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662192262D415600CEB929 /* marie_remote_localfile_android_rc */; };
+		18662217262D415700CEB929 /* empty_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662193262D415600CEB929 /* empty_rc */; };
+		18662218262D415700CEB929 /* lime_x3dh_xml_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662194262D415600CEB929 /* lime_x3dh_xml_rc */; };
+		18662219262D415700CEB929 /* groupchat_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662195262D415600CEB929 /* groupchat_rc */; };
+		1866221A262D415700CEB929 /* marie_zrtp_ecdh448_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662196262D415600CEB929 /* marie_zrtp_ecdh448_rc */; };
+		1866221B262D415700CEB929 /* zero_length_params_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662197262D415600CEB929 /* zero_length_params_rc */; };
+		1866221C262D415700CEB929 /* marie_zrtp_srtpsuite_aes256_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662198262D415600CEB929 /* marie_zrtp_srtpsuite_aes256_rc */; };
+		1866221D262D415700CEB929 /* marie_remote_localfile2_rc in Resources */ = {isa = PBXBuildFile; fileRef = 18662199262D415600CEB929 /* marie_remote_localfile2_rc */; };
+		1866221E262D415700CEB929 /* marie_remote_localfile_win10_rc in Resources */ = {isa = PBXBuildFile; fileRef = 1866219A262D415600CEB929 /* marie_remote_localfile_win10_rc */; };
+		1866221F262D415700CEB929 /* stun_rc in Resources */ = {isa = PBXBuildFile; fileRef = 1866219B262D415600CEB929 /* stun_rc */; };
+		18662220262D415700CEB929 /* pauline_tcp_rc in Resources */ = {isa = PBXBuildFile; fileRef = 1866219C262D415600CEB929 /* pauline_tcp_rc */; };
+		18662221262D415700CEB929 /* marie_dual_proxy_2_rc in Resources */ = {isa = PBXBuildFile; fileRef = 1866219D262D415600CEB929 /* marie_dual_proxy_2_rc */; };
+		18662222262D415700CEB929 /* marie_h264_rc in Resources */ = {isa = PBXBuildFile; fileRef = 1866219E262D415600CEB929 /* marie_h264_rc */; };
+		18662223262D415700CEB929 /* marie_lime_x3dh_no_server_rc in Resources */ = {isa = PBXBuildFile; fileRef = 1866219F262D415600CEB929 /* marie_lime_x3dh_no_server_rc */; };
+		18662224262D415700CEB929 /* marie_remote_404_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A0262D415600CEB929 /* marie_remote_404_rc */; };
+		18662225262D415700CEB929 /* pauline_zrtp_ecdh448_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A1262D415600CEB929 /* pauline_zrtp_ecdh448_rc */; };
+		18662226262D415700CEB929 /* pauline_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A2262D415600CEB929 /* pauline_rc */; };
+		18662227262D415700CEB929 /* marie_remote_https_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A3262D415600CEB929 /* marie_remote_https_rc */; };
+		18662228262D415700CEB929 /* groupchat_lime_x3dh_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A4262D415600CEB929 /* groupchat_lime_x3dh_rc */; };
+		18662229262D415700CEB929 /* pauline_as_friend_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A5262D415600CEB929 /* pauline_as_friend_rc */; };
+		1866222A262D415700CEB929 /* marie_remote_localfile_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A6262D415600CEB929 /* marie_remote_localfile_rc */; };
+		1866222B262D415700CEB929 /* pauline_zrtp_srtpsuite_aes256_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A7262D415600CEB929 /* pauline_zrtp_srtpsuite_aes256_rc */; };
+		1866222C262D415700CEB929 /* pauline_sips_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A8262D415600CEB929 /* pauline_sips_rc */; };
+		1866222D262D415700CEB929 /* laure_call_logs_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621A9262D415600CEB929 /* laure_call_logs_rc */; };
+		1866222E262D415700CEB929 /* pauline_external_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621AA262D415600CEB929 /* pauline_external_rc */; };
+		1866222F262D415700CEB929 /* marie_early_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621AB262D415600CEB929 /* marie_early_rc */; };
+		18662230262D415700CEB929 /* marie2_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621AC262D415600CEB929 /* marie2_rc */; };
+		18662231262D415700CEB929 /* friends_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621AD262D415600CEB929 /* friends_rc */; };
+		18662232262D415700CEB929 /* pauline_rc_rtcp_xr in Resources */ = {isa = PBXBuildFile; fileRef = 186621AE262D415600CEB929 /* pauline_rc_rtcp_xr */; };
+		18662233262D415700CEB929 /* marie_rc_rtcp_xr in Resources */ = {isa = PBXBuildFile; fileRef = 186621AF262D415600CEB929 /* marie_rc_rtcp_xr */; };
+		18662234262D415700CEB929 /* pauline_tunnel_verify_server_certificate_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B0262D415600CEB929 /* pauline_tunnel_verify_server_certificate_rc */; };
+		18662235262D415700CEB929 /* chloe_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B1262D415600CEB929 /* chloe_rc */; };
+		18662236262D415700CEB929 /* marie_zrtp_b256_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B2262D415600CEB929 /* marie_zrtp_b256_rc */; };
+		18662237262D415700CEB929 /* marie_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B3262D415600CEB929 /* marie_rc */; };
+		18662238262D415700CEB929 /* pauline_tls_client_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B4262D415600CEB929 /* pauline_tls_client_rc */; };
+		18662239262D415700CEB929 /* pauline_zrtp_b256_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B5262D415600CEB929 /* pauline_zrtp_b256_rc */; };
+		1866223A262D415700CEB929 /* marie_dual_proxy_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B6262D415600CEB929 /* marie_dual_proxy_rc */; };
+		1866223B262D415700CEB929 /* marie_sips_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B7262D415600CEB929 /* marie_sips_rc */; };
+		1866223C262D415700CEB929 /* pauline_nat64_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B8262D415600CEB929 /* pauline_nat64_rc */; };
+		1866223D262D415700CEB929 /* pauline_zrtp_ecdh255_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621B9262D415600CEB929 /* pauline_zrtp_ecdh255_rc */; };
+		1866223E262D415700CEB929 /* marie_remote_invalid_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621BA262D415600CEB929 /* marie_remote_invalid_rc */; };
+		1866223F262D415700CEB929 /* remote_zero_length_params_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621BB262D415600CEB929 /* remote_zero_length_params_rc */; };
+		18662240262D415700CEB929 /* chloe_lime_x3dh_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621BC262D415600CEB929 /* chloe_lime_x3dh_rc */; };
+		18662241262D415700CEB929 /* carddav_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621BD262D415600CEB929 /* carddav_rc */; };
+		18662242262D415700CEB929 /* marie_remote_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621BE262D415600CEB929 /* marie_remote_rc */; };
+		18662243262D415700CEB929 /* marie_transient_remote_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621BF262D415600CEB929 /* marie_transient_remote_rc */; };
+		18662244262D415700CEB929 /* pauline_lime_x3dh_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C0262D415600CEB929 /* pauline_lime_x3dh_rc */; };
+		18662245262D415700CEB929 /* marie_bodyless_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C1262D415600CEB929 /* marie_bodyless_rc */; };
+		18662246262D415700CEB929 /* marie_remote_invalid_uri_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C2262D415600CEB929 /* marie_remote_invalid_uri_rc */; };
+		18662247262D415700CEB929 /* marie_lime_x3dh_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C3262D415600CEB929 /* marie_lime_x3dh_rc */; };
+		18662248262D415700CEB929 /* laure_tcp_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C4262D415600CEB929 /* laure_tcp_rc */; };
+		18662249262D415700CEB929 /* pauline_wild_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C5262D415600CEB929 /* pauline_wild_rc */; };
+		1866224A262D415700CEB929 /* assistant_create.rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C6262D415600CEB929 /* assistant_create.rc */; };
+		1866224B262D415700CEB929 /* pauline_alt_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C7262D415600CEB929 /* pauline_alt_rc */; };
+		1866224C262D415700CEB929 /* marie_nat64_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621C8262D415600CEB929 /* marie_nat64_rc */; };
+		1866224D262D415700CEB929 /* laure_rc_udp in Resources */ = {isa = PBXBuildFile; fileRef = 186621C9262D415600CEB929 /* laure_rc_udp */; };
+		1866224E262D415700CEB929 /* marie_quality_reporting_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621CA262D415600CEB929 /* marie_quality_reporting_rc */; };
+		1866224F262D415700CEB929 /* conference_focus_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621CB262D415600CEB929 /* conference_focus_rc */; };
+		18662250262D415700CEB929 /* pauline_h264_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621CC262D415600CEB929 /* pauline_h264_rc */; };
+		18662251262D415700CEB929 /* marie_zrtp_aes256_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621CD262D415600CEB929 /* marie_zrtp_aes256_rc */; };
+		18662252262D415700CEB929 /* michelle_rc_udp in Resources */ = {isa = PBXBuildFile; fileRef = 186621CE262D415600CEB929 /* michelle_rc_udp */; };
+		18662253262D415700CEB929 /* multi_account_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621CF262D415600CEB929 /* multi_account_rc */; };
+		18662254262D415700CEB929 /* marie_v4proxy_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621D0262D415600CEB929 /* marie_v4proxy_rc */; };
+		18662255262D415700CEB929 /* account_creator_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621D1262D415600CEB929 /* account_creator_rc */; };
+		18662256262D415700CEB929 /* pauline_v4proxy_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621D2262D415600CEB929 /* pauline_v4proxy_rc */; };
+		18662257262D415700CEB929 /* marie_zrtp_ecdh255_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621D3262D415600CEB929 /* marie_zrtp_ecdh255_rc */; };
+		18662258262D415700CEB929 /* laure_lime_x3dh_rc in Resources */ = {isa = PBXBuildFile; fileRef = 186621D4262D415600CEB929 /* laure_lime_x3dh_rc */; };
+		18662259262D415700CEB929 /* belr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621D6262D415600CEB929 /* belr.framework */; };
+		1866225A262D415700CEB929 /* linphonesw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621D7262D415600CEB929 /* linphonesw.framework */; };
+		1866225B262D415700CEB929 /* mediastreamer2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621D8262D415600CEB929 /* mediastreamer2.framework */; };
+		1866225C262D415700CEB929 /* msopenh264.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621D9262D415600CEB929 /* msopenh264.framework */; };
+		1866225D262D415700CEB929 /* bctoolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621DA262D415600CEB929 /* bctoolbox.framework */; };
+		1866225E262D415700CEB929 /* mswebrtc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621DB262D415600CEB929 /* mswebrtc.framework */; };
+		1866225F262D415700CEB929 /* msamr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621DC262D415600CEB929 /* msamr.framework */; };
+		18662260262D415700CEB929 /* belle-sip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621DD262D415600CEB929 /* belle-sip.framework */; };
+		18662261262D415700CEB929 /* linphonetester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621DE262D415600CEB929 /* linphonetester.framework */; };
+		18662262262D415700CEB929 /* bctoolbox-tester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621DF262D415600CEB929 /* bctoolbox-tester.framework */; };
+		18662263262D415700CEB929 /* ortp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E0262D415600CEB929 /* ortp.framework */; };
+		18662264262D415700CEB929 /* limetester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E1262D415700CEB929 /* limetester.framework */; };
+		18662265262D415700CEB929 /* mscodec2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E2262D415700CEB929 /* mscodec2.framework */; };
+		18662266262D415700CEB929 /* mssilk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E3262D415700CEB929 /* mssilk.framework */; };
+		18662267262D415700CEB929 /* lime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E4262D415700CEB929 /* lime.framework */; };
+		18662268262D415700CEB929 /* belcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E5262D415700CEB929 /* belcard.framework */; };
+		18662269262D415700CEB929 /* msx264.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E6262D415700CEB929 /* msx264.framework */; };
+		1866226A262D415700CEB929 /* linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186621E7262D415700CEB929 /* linphone.framework */; };
+		1866226D262D41A100CEB929 /* EndpointLogIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 1866226B262D41A100CEB929 /* EndpointLogIn.h */; };
+		1866226E262D41A100CEB929 /* EndpointLogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866226C262D41A100CEB929 /* EndpointLogIn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +201,178 @@
 		18661F96262C509800CEB929 /* CHLinBinaryFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHLinBinaryFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18661F9B262C509800CEB929 /* CHLinBinaryFWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHLinBinaryFWTests.m; sourceTree = "<group>"; };
 		18661F9D262C509800CEB929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186620BF262C71B000CEB929 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
+		186620C1262C71B000CEB929 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		186620C2262C71B000CEB929 /* IASKSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStore.h; sourceTree = "<group>"; };
+		186620C3262C71B000CEB929 /* PhoneMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneMainView.h; sourceTree = "<group>"; };
+		186620C4262C71B000CEB929 /* LinphoneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinphoneManager.m; sourceTree = "<group>"; };
+		186620C5262C71B000CEB929 /* ProviderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderDelegate.h; sourceTree = "<group>"; };
+		186620C6262C71B000CEB929 /* LinphoneCoreSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinphoneCoreSettingsStore.h; sourceTree = "<group>"; };
+		186620C8262C71B000CEB929 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		186620C9262C71B000CEB929 /* AudioHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioHelper.h; sourceTree = "<group>"; };
+		186620CA262C71B000CEB929 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		186620CB262C71B000CEB929 /* FastAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastAddressBook.m; sourceTree = "<group>"; };
+		186620CC262C71B000CEB929 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		186620CD262C71B000CEB929 /* AudioHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioHelper.m; sourceTree = "<group>"; };
+		186620CE262C71B000CEB929 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		186620CF262C71B000CEB929 /* FastAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastAddressBook.h; sourceTree = "<group>"; };
+		186620D0262C71B000CEB929 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		186620D1262C71B000CEB929 /* LinphoneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinphoneManager.h; sourceTree = "<group>"; };
+		186620D2262C71B000CEB929 /* PhoneMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneMainView.m; sourceTree = "<group>"; };
+		186620D3262C71B000CEB929 /* IASKSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStore.m; sourceTree = "<group>"; };
+		186620D4262C71B000CEB929 /* ProviderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderDelegate.m; sourceTree = "<group>"; };
+		186620D5262C71B000CEB929 /* LinphoneCoreSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinphoneCoreSettingsStore.m; sourceTree = "<group>"; };
+		186620D6262C71B000CEB929 /* PhoneMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneMainView.xib; sourceTree = "<group>"; };
+		186620D8262C71B000CEB929 /* linphonerc~ipad */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "linphonerc~ipad"; sourceTree = "<group>"; };
+		186620D9262C71B000CEB929 /* assistant_external_sip.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = assistant_external_sip.rc; sourceTree = "<group>"; };
+		186620DA262C71B000CEB929 /* linphonerc-factory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "linphonerc-factory"; sourceTree = "<group>"; };
+		186620DB262C71B000CEB929 /* linphonerc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linphonerc; sourceTree = "<group>"; };
+		186620DC262C71B000CEB929 /* assistant_remote.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = assistant_remote.rc; sourceTree = "<group>"; };
+		186620DE262C71B000CEB929 /* HSUAudioDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUAudioDataProvider.h; sourceTree = "<group>"; };
+		186620DF262C71B000CEB929 /* HSUAudioCacheControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUAudioCacheControl.m; sourceTree = "<group>"; };
+		186620E0262C71B000CEB929 /* HSUAudioStreamPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUAudioStreamPlayer.m; sourceTree = "<group>"; };
+		186620E1262C71B000CEB929 /* HSUAudioNetworkControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUAudioNetworkControl.m; sourceTree = "<group>"; };
+		186620E2262C71B000CEB929 /* HSUAudioDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUAudioDataProvider.m; sourceTree = "<group>"; };
+		186620E3262C71B000CEB929 /* HSUAudioStreamPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUAudioStreamPlayer.h; sourceTree = "<group>"; };
+		186620E4262C71B000CEB929 /* HSUAudioCacheControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUAudioCacheControl.h; sourceTree = "<group>"; };
+		186620E5262C71B000CEB929 /* HSUAudioNetworkControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUAudioNetworkControl.h; sourceTree = "<group>"; };
+		186620E7262C71B000CEB929 /* InAppSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = InAppSettings.bundle; sourceTree = "<group>"; };
+		186620E9262C71B000CEB929 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186620EB262C71B000CEB929 /* Lin_Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lin_Utility.m; sourceTree = "<group>"; };
+		186620EC262C71B000CEB929 /* Lin_Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lin_Utility.h; sourceTree = "<group>"; };
+		1866215B262D415600CEB929 /* nowebcamVGA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nowebcamVGA.jpg; sourceTree = "<group>"; };
+		1866215C262D415600CEB929 /* nowebcamCIF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nowebcamCIF.jpg; sourceTree = "<group>"; };
+		1866215D262D415600CEB929 /* linphonesiteqr_captured.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linphonesiteqr_captured.jpg; sourceTree = "<group>"; };
+		1866215E262D415600CEB929 /* linphonesiteqr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linphonesiteqr.jpg; sourceTree = "<group>"; };
+		1866215F262D415600CEB929 /* linphone.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = linphone.svg; sourceTree = "<group>"; };
+		18662160262D415600CEB929 /* local_tester_hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = local_tester_hosts; sourceTree = "<group>"; };
+		18662162262D415600CEB929 /* thousand_vcards.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thousand_vcards.vcf; sourceTree = "<group>"; };
+		18662163262D415600CEB929 /* vcards.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vcards.vcf; sourceTree = "<group>"; };
+		18662166262D415600CEB929 /* agent.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agent.pem; sourceTree = "<group>"; };
+		18662167262D415600CEB929 /* openssl-altname.cnf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "openssl-altname.cnf"; sourceTree = "<group>"; };
+		18662168262D415600CEB929 /* cafile.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cafile.pem; sourceTree = "<group>"; };
+		1866216A262D415600CEB929 /* openssl-cn.cnf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "openssl-cn.cnf"; sourceTree = "<group>"; };
+		1866216B262D415600CEB929 /* agent.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agent.pem; sourceTree = "<group>"; };
+		1866216C262D415600CEB929 /* cafile.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cafile.pem; sourceTree = "<group>"; };
+		1866216E262D415600CEB929 /* cert2-signed-by-other-ca.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cert2-signed-by-other-ca.pem"; sourceTree = "<group>"; };
+		1866216F262D415600CEB929 /* cert3.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert3.pem; sourceTree = "<group>"; };
+		18662170262D415600CEB929 /* cert2.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert2.pem; sourceTree = "<group>"; };
+		18662171262D415600CEB929 /* key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key.pem; sourceTree = "<group>"; };
+		18662172262D415600CEB929 /* key3.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key3.pem; sourceTree = "<group>"; };
+		18662173262D415600CEB929 /* key2.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key2.pem; sourceTree = "<group>"; };
+		18662174262D415600CEB929 /* cert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.pem; sourceTree = "<group>"; };
+		18662176262D415600CEB929 /* hello8000.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello8000.mkv; sourceTree = "<group>"; };
+		18662177262D415600CEB929 /* hello44100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello44100.wav; sourceTree = "<group>"; };
+		18662178262D415600CEB929 /* vrroom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vrroom.wav; sourceTree = "<group>"; };
+		18662179262D415600CEB929 /* ahbahouaismaisbon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ahbahouaismaisbon.wav; sourceTree = "<group>"; };
+		1866217A262D415600CEB929 /* hello8000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello8000.wav; sourceTree = "<group>"; };
+		1866217B262D415600CEB929 /* sintel_trailer_opus_h264.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = sintel_trailer_opus_h264.mkv; sourceTree = "<group>"; };
+		1866217C262D415600CEB929 /* sintel_trailer_opus_vp8.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = sintel_trailer_opus_vp8.mkv; sourceTree = "<group>"; };
+		1866217D262D415600CEB929 /* oldphone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oldphone.wav; sourceTree = "<group>"; };
+		1866217E262D415600CEB929 /* ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringback.wav; sourceTree = "<group>"; };
+		1866217F262D415600CEB929 /* hello8000_mkv_ref.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello8000_mkv_ref.wav; sourceTree = "<group>"; };
+		18662180262D415600CEB929 /* sintel_trailer_pcmu_h264.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = sintel_trailer_pcmu_h264.mkv; sourceTree = "<group>"; };
+		18662181262D415600CEB929 /* tester_hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tester_hosts; sourceTree = "<group>"; };
+		18662183262D415600CEB929 /* messages.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = messages.db; sourceTree = "<group>"; };
+		18662184262D415600CEB929 /* linphone.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = linphone.db; sourceTree = "<group>"; };
+		18662185262D415600CEB929 /* friends.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = friends.db; sourceTree = "<group>"; };
+		18662186262D415600CEB929 /* chatrooms.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = chatrooms.db; sourceTree = "<group>"; };
+		18662188262D415600CEB929 /* sip_update_within_icoming_reinvite_with_no_sdp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sip_update_within_icoming_reinvite_with_no_sdp.xml; sourceTree = "<group>"; };
+		18662189262D415600CEB929 /* call_with_multiple_audio_mline_in_sdp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = call_with_multiple_audio_mline_in_sdp.xml; sourceTree = "<group>"; };
+		1866218A262D415600CEB929 /* call_with_video_mline_before_audio_in_sdp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = call_with_video_mline_before_audio_in_sdp.xml; sourceTree = "<group>"; };
+		1866218B262D415600CEB929 /* call_invite_200ok_without_contact_header.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = call_invite_200ok_without_contact_header.xml; sourceTree = "<group>"; };
+		1866218C262D415600CEB929 /* call_with_audio_mline_before_video_in_sdp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = call_with_audio_mline_before_video_in_sdp.xml; sourceTree = "<group>"; };
+		1866218D262D415600CEB929 /* call_with_multiple_video_mline_in_sdp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = call_with_multiple_video_mline_in_sdp.xml; sourceTree = "<group>"; };
+		1866218F262D415600CEB929 /* marie_dependent_proxy_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_dependent_proxy_rc; sourceTree = "<group>"; };
+		18662190262D415600CEB929 /* pauline_zrtp_aes256_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_zrtp_aes256_rc; sourceTree = "<group>"; };
+		18662191262D415600CEB929 /* marie_remote_default_values_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_default_values_rc; sourceTree = "<group>"; };
+		18662192262D415600CEB929 /* marie_remote_localfile_android_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_localfile_android_rc; sourceTree = "<group>"; };
+		18662193262D415600CEB929 /* empty_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = empty_rc; sourceTree = "<group>"; };
+		18662194262D415600CEB929 /* lime_x3dh_xml_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lime_x3dh_xml_rc; sourceTree = "<group>"; };
+		18662195262D415600CEB929 /* groupchat_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = groupchat_rc; sourceTree = "<group>"; };
+		18662196262D415600CEB929 /* marie_zrtp_ecdh448_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_zrtp_ecdh448_rc; sourceTree = "<group>"; };
+		18662197262D415600CEB929 /* zero_length_params_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zero_length_params_rc; sourceTree = "<group>"; };
+		18662198262D415600CEB929 /* marie_zrtp_srtpsuite_aes256_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_zrtp_srtpsuite_aes256_rc; sourceTree = "<group>"; };
+		18662199262D415600CEB929 /* marie_remote_localfile2_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = marie_remote_localfile2_rc; sourceTree = "<group>"; };
+		1866219A262D415600CEB929 /* marie_remote_localfile_win10_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_localfile_win10_rc; sourceTree = "<group>"; };
+		1866219B262D415600CEB929 /* stun_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stun_rc; sourceTree = "<group>"; };
+		1866219C262D415600CEB929 /* pauline_tcp_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_tcp_rc; sourceTree = "<group>"; };
+		1866219D262D415600CEB929 /* marie_dual_proxy_2_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_dual_proxy_2_rc; sourceTree = "<group>"; };
+		1866219E262D415600CEB929 /* marie_h264_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_h264_rc; sourceTree = "<group>"; };
+		1866219F262D415600CEB929 /* marie_lime_x3dh_no_server_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_lime_x3dh_no_server_rc; sourceTree = "<group>"; };
+		186621A0262D415600CEB929 /* marie_remote_404_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_404_rc; sourceTree = "<group>"; };
+		186621A1262D415600CEB929 /* pauline_zrtp_ecdh448_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_zrtp_ecdh448_rc; sourceTree = "<group>"; };
+		186621A2262D415600CEB929 /* pauline_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_rc; sourceTree = "<group>"; };
+		186621A3262D415600CEB929 /* marie_remote_https_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_https_rc; sourceTree = "<group>"; };
+		186621A4262D415600CEB929 /* groupchat_lime_x3dh_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = groupchat_lime_x3dh_rc; sourceTree = "<group>"; };
+		186621A5262D415600CEB929 /* pauline_as_friend_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_as_friend_rc; sourceTree = "<group>"; };
+		186621A6262D415600CEB929 /* marie_remote_localfile_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_localfile_rc; sourceTree = "<group>"; };
+		186621A7262D415600CEB929 /* pauline_zrtp_srtpsuite_aes256_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_zrtp_srtpsuite_aes256_rc; sourceTree = "<group>"; };
+		186621A8262D415600CEB929 /* pauline_sips_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_sips_rc; sourceTree = "<group>"; };
+		186621A9262D415600CEB929 /* laure_call_logs_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = laure_call_logs_rc; sourceTree = "<group>"; };
+		186621AA262D415600CEB929 /* pauline_external_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_external_rc; sourceTree = "<group>"; };
+		186621AB262D415600CEB929 /* marie_early_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_early_rc; sourceTree = "<group>"; };
+		186621AC262D415600CEB929 /* marie2_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie2_rc; sourceTree = "<group>"; };
+		186621AD262D415600CEB929 /* friends_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = friends_rc; sourceTree = "<group>"; };
+		186621AE262D415600CEB929 /* pauline_rc_rtcp_xr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_rc_rtcp_xr; sourceTree = "<group>"; };
+		186621AF262D415600CEB929 /* marie_rc_rtcp_xr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_rc_rtcp_xr; sourceTree = "<group>"; };
+		186621B0262D415600CEB929 /* pauline_tunnel_verify_server_certificate_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_tunnel_verify_server_certificate_rc; sourceTree = "<group>"; };
+		186621B1262D415600CEB929 /* chloe_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chloe_rc; sourceTree = "<group>"; };
+		186621B2262D415600CEB929 /* marie_zrtp_b256_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_zrtp_b256_rc; sourceTree = "<group>"; };
+		186621B3262D415600CEB929 /* marie_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_rc; sourceTree = "<group>"; };
+		186621B4262D415600CEB929 /* pauline_tls_client_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_tls_client_rc; sourceTree = "<group>"; };
+		186621B5262D415600CEB929 /* pauline_zrtp_b256_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_zrtp_b256_rc; sourceTree = "<group>"; };
+		186621B6262D415600CEB929 /* marie_dual_proxy_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_dual_proxy_rc; sourceTree = "<group>"; };
+		186621B7262D415600CEB929 /* marie_sips_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_sips_rc; sourceTree = "<group>"; };
+		186621B8262D415600CEB929 /* pauline_nat64_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_nat64_rc; sourceTree = "<group>"; };
+		186621B9262D415600CEB929 /* pauline_zrtp_ecdh255_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_zrtp_ecdh255_rc; sourceTree = "<group>"; };
+		186621BA262D415600CEB929 /* marie_remote_invalid_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_invalid_rc; sourceTree = "<group>"; };
+		186621BB262D415600CEB929 /* remote_zero_length_params_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = remote_zero_length_params_rc; sourceTree = "<group>"; };
+		186621BC262D415600CEB929 /* chloe_lime_x3dh_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chloe_lime_x3dh_rc; sourceTree = "<group>"; };
+		186621BD262D415600CEB929 /* carddav_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = carddav_rc; sourceTree = "<group>"; };
+		186621BE262D415600CEB929 /* marie_remote_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_rc; sourceTree = "<group>"; };
+		186621BF262D415600CEB929 /* marie_transient_remote_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_transient_remote_rc; sourceTree = "<group>"; };
+		186621C0262D415600CEB929 /* pauline_lime_x3dh_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_lime_x3dh_rc; sourceTree = "<group>"; };
+		186621C1262D415600CEB929 /* marie_bodyless_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_bodyless_rc; sourceTree = "<group>"; };
+		186621C2262D415600CEB929 /* marie_remote_invalid_uri_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_remote_invalid_uri_rc; sourceTree = "<group>"; };
+		186621C3262D415600CEB929 /* marie_lime_x3dh_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_lime_x3dh_rc; sourceTree = "<group>"; };
+		186621C4262D415600CEB929 /* laure_tcp_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = laure_tcp_rc; sourceTree = "<group>"; };
+		186621C5262D415600CEB929 /* pauline_wild_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_wild_rc; sourceTree = "<group>"; };
+		186621C6262D415600CEB929 /* assistant_create.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = assistant_create.rc; sourceTree = "<group>"; };
+		186621C7262D415600CEB929 /* pauline_alt_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_alt_rc; sourceTree = "<group>"; };
+		186621C8262D415600CEB929 /* marie_nat64_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_nat64_rc; sourceTree = "<group>"; };
+		186621C9262D415600CEB929 /* laure_rc_udp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = laure_rc_udp; sourceTree = "<group>"; };
+		186621CA262D415600CEB929 /* marie_quality_reporting_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_quality_reporting_rc; sourceTree = "<group>"; };
+		186621CB262D415600CEB929 /* conference_focus_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = conference_focus_rc; sourceTree = "<group>"; };
+		186621CC262D415600CEB929 /* pauline_h264_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_h264_rc; sourceTree = "<group>"; };
+		186621CD262D415600CEB929 /* marie_zrtp_aes256_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_zrtp_aes256_rc; sourceTree = "<group>"; };
+		186621CE262D415600CEB929 /* michelle_rc_udp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = michelle_rc_udp; sourceTree = "<group>"; };
+		186621CF262D415600CEB929 /* multi_account_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = multi_account_rc; sourceTree = "<group>"; };
+		186621D0262D415600CEB929 /* marie_v4proxy_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_v4proxy_rc; sourceTree = "<group>"; };
+		186621D1262D415600CEB929 /* account_creator_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = account_creator_rc; sourceTree = "<group>"; };
+		186621D2262D415600CEB929 /* pauline_v4proxy_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pauline_v4proxy_rc; sourceTree = "<group>"; };
+		186621D3262D415600CEB929 /* marie_zrtp_ecdh255_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marie_zrtp_ecdh255_rc; sourceTree = "<group>"; };
+		186621D4262D415600CEB929 /* laure_lime_x3dh_rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = laure_lime_x3dh_rc; sourceTree = "<group>"; };
+		186621D6262D415600CEB929 /* belr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = belr.framework; sourceTree = "<group>"; };
+		186621D7262D415600CEB929 /* linphonesw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = linphonesw.framework; sourceTree = "<group>"; };
+		186621D8262D415600CEB929 /* mediastreamer2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mediastreamer2.framework; sourceTree = "<group>"; };
+		186621D9262D415600CEB929 /* msopenh264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = msopenh264.framework; sourceTree = "<group>"; };
+		186621DA262D415600CEB929 /* bctoolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bctoolbox.framework; sourceTree = "<group>"; };
+		186621DB262D415600CEB929 /* mswebrtc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mswebrtc.framework; sourceTree = "<group>"; };
+		186621DC262D415600CEB929 /* msamr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = msamr.framework; sourceTree = "<group>"; };
+		186621DD262D415600CEB929 /* belle-sip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "belle-sip.framework"; sourceTree = "<group>"; };
+		186621DE262D415600CEB929 /* linphonetester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = linphonetester.framework; sourceTree = "<group>"; };
+		186621DF262D415600CEB929 /* bctoolbox-tester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "bctoolbox-tester.framework"; sourceTree = "<group>"; };
+		186621E0262D415600CEB929 /* ortp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ortp.framework; sourceTree = "<group>"; };
+		186621E1262D415700CEB929 /* limetester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = limetester.framework; sourceTree = "<group>"; };
+		186621E2262D415700CEB929 /* mscodec2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mscodec2.framework; sourceTree = "<group>"; };
+		186621E3262D415700CEB929 /* mssilk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mssilk.framework; sourceTree = "<group>"; };
+		186621E4262D415700CEB929 /* lime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lime.framework; sourceTree = "<group>"; };
+		186621E5262D415700CEB929 /* belcard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = belcard.framework; sourceTree = "<group>"; };
+		186621E6262D415700CEB929 /* msx264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = msx264.framework; sourceTree = "<group>"; };
+		186621E7262D415700CEB929 /* linphone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = linphone.framework; sourceTree = "<group>"; };
+		1866226B262D41A100CEB929 /* EndpointLogIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndpointLogIn.h; sourceTree = "<group>"; };
+		1866226C262D41A100CEB929 /* EndpointLogIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EndpointLogIn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +380,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18662268262D415700CEB929 /* belcard.framework in Frameworks */,
+				18662262262D415700CEB929 /* bctoolbox-tester.framework in Frameworks */,
+				18662267262D415700CEB929 /* lime.framework in Frameworks */,
+				186620ED262C71B000CEB929 /* libstdc++.6.0.9.tbd in Frameworks */,
+				18662265262D415700CEB929 /* mscodec2.framework in Frameworks */,
+				1866226A262D415700CEB929 /* linphone.framework in Frameworks */,
+				1866225B262D415700CEB929 /* mediastreamer2.framework in Frameworks */,
+				18662260262D415700CEB929 /* belle-sip.framework in Frameworks */,
+				18662259262D415700CEB929 /* belr.framework in Frameworks */,
+				18662266262D415700CEB929 /* mssilk.framework in Frameworks */,
+				1866225F262D415700CEB929 /* msamr.framework in Frameworks */,
+				1866225E262D415700CEB929 /* mswebrtc.framework in Frameworks */,
+				18662264262D415700CEB929 /* limetester.framework in Frameworks */,
+				1866225C262D415700CEB929 /* msopenh264.framework in Frameworks */,
+				1866225A262D415700CEB929 /* linphonesw.framework in Frameworks */,
+				18662261262D415700CEB929 /* linphonetester.framework in Frameworks */,
+				1866225D262D415700CEB929 /* bctoolbox.framework in Frameworks */,
+				18662269262D415700CEB929 /* msx264.framework in Frameworks */,
+				18662263262D415700CEB929 /* ortp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +419,7 @@
 				18661F8F262C509800CEB929 /* CHLinBinaryFW */,
 				18661F9A262C509800CEB929 /* CHLinBinaryFWTests */,
 				18661F8E262C509800CEB929 /* Products */,
+				75EBCEA1F37CA2312E455129 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +435,11 @@
 		18661F8F262C509800CEB929 /* CHLinBinaryFW */ = {
 			isa = PBXGroup;
 			children = (
+				186620BD262C71B000CEB929 /* Linclasses */,
 				18661F90262C509800CEB929 /* CHLinBinaryFW.h */,
 				18661F91262C509800CEB929 /* Info.plist */,
+				1866226B262D41A100CEB929 /* EndpointLogIn.h */,
+				1866226C262D41A100CEB929 /* EndpointLogIn.m */,
 			);
 			path = CHLinBinaryFW;
 			sourceTree = "<group>";
@@ -86,6 +453,382 @@
 			path = CHLinBinaryFWTests;
 			sourceTree = "<group>";
 		};
+		186620BD262C71B000CEB929 /* Linclasses */ = {
+			isa = PBXGroup;
+			children = (
+				18662155262D415600CEB929 /* linphone-sdk */,
+				186620BE262C71B000CEB929 /* ExtraClasses */,
+				186620EA262C71B000CEB929 /* custom */,
+			);
+			path = Linclasses;
+			sourceTree = "<group>";
+		};
+		186620BE262C71B000CEB929 /* ExtraClasses */ = {
+			isa = PBXGroup;
+			children = (
+				186620BF262C71B000CEB929 /* libstdc++.6.0.9.tbd */,
+				186620C0262C71B000CEB929 /* LinClasses */,
+				186620D7262C71B000CEB929 /* LinResources */,
+				186620DD262C71B000CEB929 /* AudioStreamPlayer */,
+				186620E6262C71B000CEB929 /* LinSettings */,
+				186620E8262C71B000CEB929 /* linphoneExtension */,
+			);
+			path = ExtraClasses;
+			sourceTree = "<group>";
+		};
+		186620C0262C71B000CEB929 /* LinClasses */ = {
+			isa = PBXGroup;
+			children = (
+				186620C1262C71B000CEB929 /* Contact.m */,
+				186620C2262C71B000CEB929 /* IASKSettingsStore.h */,
+				186620C3262C71B000CEB929 /* PhoneMainView.h */,
+				186620C4262C71B000CEB929 /* LinphoneManager.m */,
+				186620C5262C71B000CEB929 /* ProviderDelegate.h */,
+				186620C6262C71B000CEB929 /* LinphoneCoreSettingsStore.h */,
+				186620C7262C71B000CEB929 /* Utils */,
+				186620D0262C71B000CEB929 /* Contact.h */,
+				186620D1262C71B000CEB929 /* LinphoneManager.h */,
+				186620D2262C71B000CEB929 /* PhoneMainView.m */,
+				186620D3262C71B000CEB929 /* IASKSettingsStore.m */,
+				186620D4262C71B000CEB929 /* ProviderDelegate.m */,
+				186620D5262C71B000CEB929 /* LinphoneCoreSettingsStore.m */,
+				186620D6262C71B000CEB929 /* PhoneMainView.xib */,
+			);
+			path = LinClasses;
+			sourceTree = "<group>";
+		};
+		186620C7262C71B000CEB929 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				186620C8262C71B000CEB929 /* Log.m */,
+				186620C9262C71B000CEB929 /* AudioHelper.h */,
+				186620CA262C71B000CEB929 /* Utils.h */,
+				186620CB262C71B000CEB929 /* FastAddressBook.m */,
+				186620CC262C71B000CEB929 /* Utils.m */,
+				186620CD262C71B000CEB929 /* AudioHelper.m */,
+				186620CE262C71B000CEB929 /* Log.h */,
+				186620CF262C71B000CEB929 /* FastAddressBook.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		186620D7262C71B000CEB929 /* LinResources */ = {
+			isa = PBXGroup;
+			children = (
+				186620D8262C71B000CEB929 /* linphonerc~ipad */,
+				186620D9262C71B000CEB929 /* assistant_external_sip.rc */,
+				186620DA262C71B000CEB929 /* linphonerc-factory */,
+				186620DB262C71B000CEB929 /* linphonerc */,
+				186620DC262C71B000CEB929 /* assistant_remote.rc */,
+			);
+			path = LinResources;
+			sourceTree = "<group>";
+		};
+		186620DD262C71B000CEB929 /* AudioStreamPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				186620DE262C71B000CEB929 /* HSUAudioDataProvider.h */,
+				186620DF262C71B000CEB929 /* HSUAudioCacheControl.m */,
+				186620E0262C71B000CEB929 /* HSUAudioStreamPlayer.m */,
+				186620E1262C71B000CEB929 /* HSUAudioNetworkControl.m */,
+				186620E2262C71B000CEB929 /* HSUAudioDataProvider.m */,
+				186620E3262C71B000CEB929 /* HSUAudioStreamPlayer.h */,
+				186620E4262C71B000CEB929 /* HSUAudioCacheControl.h */,
+				186620E5262C71B000CEB929 /* HSUAudioNetworkControl.h */,
+			);
+			path = AudioStreamPlayer;
+			sourceTree = "<group>";
+		};
+		186620E6262C71B000CEB929 /* LinSettings */ = {
+			isa = PBXGroup;
+			children = (
+				186620E7262C71B000CEB929 /* InAppSettings.bundle */,
+			);
+			path = LinSettings;
+			sourceTree = "<group>";
+		};
+		186620E8262C71B000CEB929 /* linphoneExtension */ = {
+			isa = PBXGroup;
+			children = (
+				186620E9262C71B000CEB929 /* main.m */,
+			);
+			path = linphoneExtension;
+			sourceTree = "<group>";
+		};
+		186620EA262C71B000CEB929 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				186620EB262C71B000CEB929 /* Lin_Utility.m */,
+				186620EC262C71B000CEB929 /* Lin_Utility.h */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		18662155262D415600CEB929 /* linphone-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				18662156262D415600CEB929 /* linphone-sdk */,
+			);
+			path = "linphone-sdk";
+			sourceTree = "<group>";
+		};
+		18662156262D415600CEB929 /* linphone-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				18662157262D415600CEB929 /* apple-darwin */,
+			);
+			path = "linphone-sdk";
+			sourceTree = "<group>";
+		};
+		18662157262D415600CEB929 /* apple-darwin */ = {
+			isa = PBXGroup;
+			children = (
+				18662158262D415600CEB929 /* Resources */,
+				186621D5262D415600CEB929 /* Frameworks */,
+			);
+			path = "apple-darwin";
+			sourceTree = "<group>";
+		};
+		18662158262D415600CEB929 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18662159262D415600CEB929 /* liblinphone_tester */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18662159262D415600CEB929 /* liblinphone_tester */ = {
+			isa = PBXGroup;
+			children = (
+				1866215A262D415600CEB929 /* images */,
+				18662160262D415600CEB929 /* local_tester_hosts */,
+				18662161262D415600CEB929 /* vcards */,
+				18662164262D415600CEB929 /* certificates */,
+				18662175262D415600CEB929 /* sounds */,
+				18662181262D415600CEB929 /* tester_hosts */,
+				18662182262D415600CEB929 /* db */,
+				18662187262D415600CEB929 /* sipp */,
+				1866218E262D415600CEB929 /* rcfiles */,
+			);
+			path = liblinphone_tester;
+			sourceTree = "<group>";
+		};
+		1866215A262D415600CEB929 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1866215B262D415600CEB929 /* nowebcamVGA.jpg */,
+				1866215C262D415600CEB929 /* nowebcamCIF.jpg */,
+				1866215D262D415600CEB929 /* linphonesiteqr_captured.jpg */,
+				1866215E262D415600CEB929 /* linphonesiteqr.jpg */,
+				1866215F262D415600CEB929 /* linphone.svg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		18662161262D415600CEB929 /* vcards */ = {
+			isa = PBXGroup;
+			children = (
+				18662162262D415600CEB929 /* thousand_vcards.vcf */,
+				18662163262D415600CEB929 /* vcards.vcf */,
+			);
+			path = vcards;
+			sourceTree = "<group>";
+		};
+		18662164262D415600CEB929 /* certificates */ = {
+			isa = PBXGroup;
+			children = (
+				18662165262D415600CEB929 /* altname */,
+				18662169262D415600CEB929 /* cn */,
+				1866216D262D415600CEB929 /* client */,
+			);
+			path = certificates;
+			sourceTree = "<group>";
+		};
+		18662165262D415600CEB929 /* altname */ = {
+			isa = PBXGroup;
+			children = (
+				18662166262D415600CEB929 /* agent.pem */,
+				18662167262D415600CEB929 /* openssl-altname.cnf */,
+				18662168262D415600CEB929 /* cafile.pem */,
+			);
+			path = altname;
+			sourceTree = "<group>";
+		};
+		18662169262D415600CEB929 /* cn */ = {
+			isa = PBXGroup;
+			children = (
+				1866216A262D415600CEB929 /* openssl-cn.cnf */,
+				1866216B262D415600CEB929 /* agent.pem */,
+				1866216C262D415600CEB929 /* cafile.pem */,
+			);
+			path = cn;
+			sourceTree = "<group>";
+		};
+		1866216D262D415600CEB929 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				1866216E262D415600CEB929 /* cert2-signed-by-other-ca.pem */,
+				1866216F262D415600CEB929 /* cert3.pem */,
+				18662170262D415600CEB929 /* cert2.pem */,
+				18662171262D415600CEB929 /* key.pem */,
+				18662172262D415600CEB929 /* key3.pem */,
+				18662173262D415600CEB929 /* key2.pem */,
+				18662174262D415600CEB929 /* cert.pem */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		18662175262D415600CEB929 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				18662176262D415600CEB929 /* hello8000.mkv */,
+				18662177262D415600CEB929 /* hello44100.wav */,
+				18662178262D415600CEB929 /* vrroom.wav */,
+				18662179262D415600CEB929 /* ahbahouaismaisbon.wav */,
+				1866217A262D415600CEB929 /* hello8000.wav */,
+				1866217B262D415600CEB929 /* sintel_trailer_opus_h264.mkv */,
+				1866217C262D415600CEB929 /* sintel_trailer_opus_vp8.mkv */,
+				1866217D262D415600CEB929 /* oldphone.wav */,
+				1866217E262D415600CEB929 /* ringback.wav */,
+				1866217F262D415600CEB929 /* hello8000_mkv_ref.wav */,
+				18662180262D415600CEB929 /* sintel_trailer_pcmu_h264.mkv */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		18662182262D415600CEB929 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				18662183262D415600CEB929 /* messages.db */,
+				18662184262D415600CEB929 /* linphone.db */,
+				18662185262D415600CEB929 /* friends.db */,
+				18662186262D415600CEB929 /* chatrooms.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		18662187262D415600CEB929 /* sipp */ = {
+			isa = PBXGroup;
+			children = (
+				18662188262D415600CEB929 /* sip_update_within_icoming_reinvite_with_no_sdp.xml */,
+				18662189262D415600CEB929 /* call_with_multiple_audio_mline_in_sdp.xml */,
+				1866218A262D415600CEB929 /* call_with_video_mline_before_audio_in_sdp.xml */,
+				1866218B262D415600CEB929 /* call_invite_200ok_without_contact_header.xml */,
+				1866218C262D415600CEB929 /* call_with_audio_mline_before_video_in_sdp.xml */,
+				1866218D262D415600CEB929 /* call_with_multiple_video_mline_in_sdp.xml */,
+			);
+			path = sipp;
+			sourceTree = "<group>";
+		};
+		1866218E262D415600CEB929 /* rcfiles */ = {
+			isa = PBXGroup;
+			children = (
+				1866218F262D415600CEB929 /* marie_dependent_proxy_rc */,
+				18662190262D415600CEB929 /* pauline_zrtp_aes256_rc */,
+				18662191262D415600CEB929 /* marie_remote_default_values_rc */,
+				18662192262D415600CEB929 /* marie_remote_localfile_android_rc */,
+				18662193262D415600CEB929 /* empty_rc */,
+				18662194262D415600CEB929 /* lime_x3dh_xml_rc */,
+				18662195262D415600CEB929 /* groupchat_rc */,
+				18662196262D415600CEB929 /* marie_zrtp_ecdh448_rc */,
+				18662197262D415600CEB929 /* zero_length_params_rc */,
+				18662198262D415600CEB929 /* marie_zrtp_srtpsuite_aes256_rc */,
+				18662199262D415600CEB929 /* marie_remote_localfile2_rc */,
+				1866219A262D415600CEB929 /* marie_remote_localfile_win10_rc */,
+				1866219B262D415600CEB929 /* stun_rc */,
+				1866219C262D415600CEB929 /* pauline_tcp_rc */,
+				1866219D262D415600CEB929 /* marie_dual_proxy_2_rc */,
+				1866219E262D415600CEB929 /* marie_h264_rc */,
+				1866219F262D415600CEB929 /* marie_lime_x3dh_no_server_rc */,
+				186621A0262D415600CEB929 /* marie_remote_404_rc */,
+				186621A1262D415600CEB929 /* pauline_zrtp_ecdh448_rc */,
+				186621A2262D415600CEB929 /* pauline_rc */,
+				186621A3262D415600CEB929 /* marie_remote_https_rc */,
+				186621A4262D415600CEB929 /* groupchat_lime_x3dh_rc */,
+				186621A5262D415600CEB929 /* pauline_as_friend_rc */,
+				186621A6262D415600CEB929 /* marie_remote_localfile_rc */,
+				186621A7262D415600CEB929 /* pauline_zrtp_srtpsuite_aes256_rc */,
+				186621A8262D415600CEB929 /* pauline_sips_rc */,
+				186621A9262D415600CEB929 /* laure_call_logs_rc */,
+				186621AA262D415600CEB929 /* pauline_external_rc */,
+				186621AB262D415600CEB929 /* marie_early_rc */,
+				186621AC262D415600CEB929 /* marie2_rc */,
+				186621AD262D415600CEB929 /* friends_rc */,
+				186621AE262D415600CEB929 /* pauline_rc_rtcp_xr */,
+				186621AF262D415600CEB929 /* marie_rc_rtcp_xr */,
+				186621B0262D415600CEB929 /* pauline_tunnel_verify_server_certificate_rc */,
+				186621B1262D415600CEB929 /* chloe_rc */,
+				186621B2262D415600CEB929 /* marie_zrtp_b256_rc */,
+				186621B3262D415600CEB929 /* marie_rc */,
+				186621B4262D415600CEB929 /* pauline_tls_client_rc */,
+				186621B5262D415600CEB929 /* pauline_zrtp_b256_rc */,
+				186621B6262D415600CEB929 /* marie_dual_proxy_rc */,
+				186621B7262D415600CEB929 /* marie_sips_rc */,
+				186621B8262D415600CEB929 /* pauline_nat64_rc */,
+				186621B9262D415600CEB929 /* pauline_zrtp_ecdh255_rc */,
+				186621BA262D415600CEB929 /* marie_remote_invalid_rc */,
+				186621BB262D415600CEB929 /* remote_zero_length_params_rc */,
+				186621BC262D415600CEB929 /* chloe_lime_x3dh_rc */,
+				186621BD262D415600CEB929 /* carddav_rc */,
+				186621BE262D415600CEB929 /* marie_remote_rc */,
+				186621BF262D415600CEB929 /* marie_transient_remote_rc */,
+				186621C0262D415600CEB929 /* pauline_lime_x3dh_rc */,
+				186621C1262D415600CEB929 /* marie_bodyless_rc */,
+				186621C2262D415600CEB929 /* marie_remote_invalid_uri_rc */,
+				186621C3262D415600CEB929 /* marie_lime_x3dh_rc */,
+				186621C4262D415600CEB929 /* laure_tcp_rc */,
+				186621C5262D415600CEB929 /* pauline_wild_rc */,
+				186621C6262D415600CEB929 /* assistant_create.rc */,
+				186621C7262D415600CEB929 /* pauline_alt_rc */,
+				186621C8262D415600CEB929 /* marie_nat64_rc */,
+				186621C9262D415600CEB929 /* laure_rc_udp */,
+				186621CA262D415600CEB929 /* marie_quality_reporting_rc */,
+				186621CB262D415600CEB929 /* conference_focus_rc */,
+				186621CC262D415600CEB929 /* pauline_h264_rc */,
+				186621CD262D415600CEB929 /* marie_zrtp_aes256_rc */,
+				186621CE262D415600CEB929 /* michelle_rc_udp */,
+				186621CF262D415600CEB929 /* multi_account_rc */,
+				186621D0262D415600CEB929 /* marie_v4proxy_rc */,
+				186621D1262D415600CEB929 /* account_creator_rc */,
+				186621D2262D415600CEB929 /* pauline_v4proxy_rc */,
+				186621D3262D415600CEB929 /* marie_zrtp_ecdh255_rc */,
+				186621D4262D415600CEB929 /* laure_lime_x3dh_rc */,
+			);
+			path = rcfiles;
+			sourceTree = "<group>";
+		};
+		186621D5262D415600CEB929 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186621D6262D415600CEB929 /* belr.framework */,
+				186621D7262D415600CEB929 /* linphonesw.framework */,
+				186621D8262D415600CEB929 /* mediastreamer2.framework */,
+				186621D9262D415600CEB929 /* msopenh264.framework */,
+				186621DA262D415600CEB929 /* bctoolbox.framework */,
+				186621DB262D415600CEB929 /* mswebrtc.framework */,
+				186621DC262D415600CEB929 /* msamr.framework */,
+				186621DD262D415600CEB929 /* belle-sip.framework */,
+				186621DE262D415600CEB929 /* linphonetester.framework */,
+				186621DF262D415600CEB929 /* bctoolbox-tester.framework */,
+				186621E0262D415600CEB929 /* ortp.framework */,
+				186621E1262D415700CEB929 /* limetester.framework */,
+				186621E2262D415700CEB929 /* mscodec2.framework */,
+				186621E3262D415700CEB929 /* mssilk.framework */,
+				186621E4262D415700CEB929 /* lime.framework */,
+				186621E5262D415700CEB929 /* belcard.framework */,
+				186621E6262D415700CEB929 /* msx264.framework */,
+				186621E7262D415700CEB929 /* linphone.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		75EBCEA1F37CA2312E455129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +836,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1866226D262D41A100CEB929 /* EndpointLogIn.h in Headers */,
+				186620F0262C71B000CEB929 /* PhoneMainView.h in Headers */,
+				1866210F262C71B000CEB929 /* HSUAudioNetworkControl.h in Headers */,
 				18661F9E262C509800CEB929 /* CHLinBinaryFW.h in Headers */,
+				186620F2262C71B000CEB929 /* ProviderDelegate.h in Headers */,
+				186620FB262C71B000CEB929 /* FastAddressBook.h in Headers */,
+				186620EF262C71B000CEB929 /* IASKSettingsStore.h in Headers */,
+				1866210D262C71B000CEB929 /* HSUAudioStreamPlayer.h in Headers */,
+				186620F6262C71B000CEB929 /* Utils.h in Headers */,
+				1866210E262C71B000CEB929 /* HSUAudioCacheControl.h in Headers */,
+				18662113262C71B000CEB929 /* Lin_Utility.h in Headers */,
+				186620FA262C71B000CEB929 /* Log.h in Headers */,
+				18662108262C71B000CEB929 /* HSUAudioDataProvider.h in Headers */,
+				186620FD262C71B000CEB929 /* LinphoneManager.h in Headers */,
+				186620FC262C71B000CEB929 /* Contact.h in Headers */,
+				186620F3262C71B000CEB929 /* LinphoneCoreSettingsStore.h in Headers */,
+				186620F5262C71B000CEB929 /* AudioHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +936,126 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1866220C262D415700CEB929 /* chatrooms.db in Resources */,
+				1866224F262D415700CEB929 /* conference_focus_rc in Resources */,
+				1866223F262D415700CEB929 /* remote_zero_length_params_rc in Resources */,
+				186621E8262D415700CEB929 /* nowebcamVGA.jpg in Resources */,
+				18662253262D415700CEB929 /* multi_account_rc in Resources */,
+				18662204262D415700CEB929 /* oldphone.wav in Resources */,
+				18662239262D415700CEB929 /* pauline_zrtp_b256_rc in Resources */,
+				18662246262D415700CEB929 /* marie_remote_invalid_uri_rc in Resources */,
+				18662107262C71B000CEB929 /* assistant_remote.rc in Resources */,
+				18662213262D415700CEB929 /* marie_dependent_proxy_rc in Resources */,
+				18662247262D415700CEB929 /* marie_lime_x3dh_rc in Resources */,
+				1866224E262D415700CEB929 /* marie_quality_reporting_rc in Resources */,
+				18662208262D415700CEB929 /* tester_hosts in Resources */,
+				1866222F262D415700CEB929 /* marie_early_rc in Resources */,
+				18662219262D415700CEB929 /* groupchat_rc in Resources */,
+				1866224C262D415700CEB929 /* marie_nat64_rc in Resources */,
+				18662207262D415700CEB929 /* sintel_trailer_pcmu_h264.mkv in Resources */,
+				18662210262D415700CEB929 /* call_invite_200ok_without_contact_header.xml in Resources */,
+				18662217262D415700CEB929 /* empty_rc in Resources */,
+				18662209262D415700CEB929 /* messages.db in Resources */,
+				186621FF262D415700CEB929 /* vrroom.wav in Resources */,
+				186621FD262D415700CEB929 /* hello8000.mkv in Resources */,
+				186621FC262D415700CEB929 /* cert.pem in Resources */,
+				18662103262C71B000CEB929 /* linphonerc~ipad in Resources */,
+				1866221F262D415700CEB929 /* stun_rc in Resources */,
+				1866222A262D415700CEB929 /* marie_remote_localfile_rc in Resources */,
+				18662245262D415700CEB929 /* marie_bodyless_rc in Resources */,
+				18662223262D415700CEB929 /* marie_lime_x3dh_no_server_rc in Resources */,
+				186621F6262D415700CEB929 /* cert2-signed-by-other-ca.pem in Resources */,
+				1866224A262D415700CEB929 /* assistant_create.rc in Resources */,
+				1866220B262D415700CEB929 /* friends.db in Resources */,
+				18662241262D415700CEB929 /* carddav_rc in Resources */,
+				18662221262D415700CEB929 /* marie_dual_proxy_2_rc in Resources */,
+				18662215262D415700CEB929 /* marie_remote_default_values_rc in Resources */,
+				1866221C262D415700CEB929 /* marie_zrtp_srtpsuite_aes256_rc in Resources */,
+				18662211262D415700CEB929 /* call_with_audio_mline_before_video_in_sdp.xml in Resources */,
+				18662214262D415700CEB929 /* pauline_zrtp_aes256_rc in Resources */,
+				18662234262D415700CEB929 /* pauline_tunnel_verify_server_certificate_rc in Resources */,
+				18662220262D415700CEB929 /* pauline_tcp_rc in Resources */,
+				18662201262D415700CEB929 /* hello8000.wav in Resources */,
+				18662236262D415700CEB929 /* marie_zrtp_b256_rc in Resources */,
+				1866222C262D415700CEB929 /* pauline_sips_rc in Resources */,
+				18662225262D415700CEB929 /* pauline_zrtp_ecdh448_rc in Resources */,
+				1866222B262D415700CEB929 /* pauline_zrtp_srtpsuite_aes256_rc in Resources */,
+				18662255262D415700CEB929 /* account_creator_rc in Resources */,
+				18662229262D415700CEB929 /* pauline_as_friend_rc in Resources */,
+				18662254262D415700CEB929 /* marie_v4proxy_rc in Resources */,
+				1866220F262D415700CEB929 /* call_with_video_mline_before_audio_in_sdp.xml in Resources */,
+				186621FA262D415700CEB929 /* key3.pem in Resources */,
+				1866221A262D415700CEB929 /* marie_zrtp_ecdh448_rc in Resources */,
+				186621F5262D415700CEB929 /* cafile.pem in Resources */,
+				1866222E262D415700CEB929 /* pauline_external_rc in Resources */,
+				18662242262D415700CEB929 /* marie_remote_rc in Resources */,
+				1866220A262D415700CEB929 /* linphone.db in Resources */,
+				18662233262D415700CEB929 /* marie_rc_rtcp_xr in Resources */,
+				186621EB262D415700CEB929 /* linphonesiteqr.jpg in Resources */,
+				186621F4262D415700CEB929 /* agent.pem in Resources */,
+				1866220D262D415700CEB929 /* sip_update_within_icoming_reinvite_with_no_sdp.xml in Resources */,
+				186621F9262D415700CEB929 /* key.pem in Resources */,
+				18662227262D415700CEB929 /* marie_remote_https_rc in Resources */,
+				18662232262D415700CEB929 /* pauline_rc_rtcp_xr in Resources */,
+				18662251262D415700CEB929 /* marie_zrtp_aes256_rc in Resources */,
+				186621F1262D415700CEB929 /* openssl-altname.cnf in Resources */,
+				18662104262C71B000CEB929 /* assistant_external_sip.rc in Resources */,
+				186621F8262D415700CEB929 /* cert2.pem in Resources */,
+				18662200262D415700CEB929 /* ahbahouaismaisbon.wav in Resources */,
+				186621F7262D415700CEB929 /* cert3.pem in Resources */,
+				186621FE262D415700CEB929 /* hello44100.wav in Resources */,
+				18662243262D415700CEB929 /* marie_transient_remote_rc in Resources */,
+				18662256262D415700CEB929 /* pauline_v4proxy_rc in Resources */,
+				18662222262D415700CEB929 /* marie_h264_rc in Resources */,
+				1866222D262D415700CEB929 /* laure_call_logs_rc in Resources */,
+				186621F3262D415700CEB929 /* openssl-cn.cnf in Resources */,
+				18662250262D415700CEB929 /* pauline_h264_rc in Resources */,
+				18662102262C71B000CEB929 /* PhoneMainView.xib in Resources */,
+				1866223C262D415700CEB929 /* pauline_nat64_rc in Resources */,
+				18662205262D415700CEB929 /* ringback.wav in Resources */,
+				186621E9262D415700CEB929 /* nowebcamCIF.jpg in Resources */,
+				186621EF262D415700CEB929 /* vcards.vcf in Resources */,
+				18662224262D415700CEB929 /* marie_remote_404_rc in Resources */,
+				186621F0262D415700CEB929 /* agent.pem in Resources */,
+				18662231262D415700CEB929 /* friends_rc in Resources */,
+				18662202262D415700CEB929 /* sintel_trailer_opus_h264.mkv in Resources */,
+				18662235262D415700CEB929 /* chloe_rc in Resources */,
+				186621ED262D415700CEB929 /* local_tester_hosts in Resources */,
+				1866220E262D415700CEB929 /* call_with_multiple_audio_mline_in_sdp.xml in Resources */,
+				1866223D262D415700CEB929 /* pauline_zrtp_ecdh255_rc in Resources */,
+				18662244262D415700CEB929 /* pauline_lime_x3dh_rc in Resources */,
+				18662237262D415700CEB929 /* marie_rc in Resources */,
+				18662248262D415700CEB929 /* laure_tcp_rc in Resources */,
+				18662230262D415700CEB929 /* marie2_rc in Resources */,
+				186621EE262D415700CEB929 /* thousand_vcards.vcf in Resources */,
+				1866223B262D415700CEB929 /* marie_sips_rc in Resources */,
+				1866221D262D415700CEB929 /* marie_remote_localfile2_rc in Resources */,
+				18662257262D415700CEB929 /* marie_zrtp_ecdh255_rc in Resources */,
+				18662249262D415700CEB929 /* pauline_wild_rc in Resources */,
+				18662238262D415700CEB929 /* pauline_tls_client_rc in Resources */,
+				18662240262D415700CEB929 /* chloe_lime_x3dh_rc in Resources */,
+				1866223E262D415700CEB929 /* marie_remote_invalid_rc in Resources */,
+				186621F2262D415700CEB929 /* cafile.pem in Resources */,
+				18662216262D415700CEB929 /* marie_remote_localfile_android_rc in Resources */,
+				18662105262C71B000CEB929 /* linphonerc-factory in Resources */,
+				18662228262D415700CEB929 /* groupchat_lime_x3dh_rc in Resources */,
+				18662212262D415700CEB929 /* call_with_multiple_video_mline_in_sdp.xml in Resources */,
+				18662106262C71B000CEB929 /* linphonerc in Resources */,
+				18662226262D415700CEB929 /* pauline_rc in Resources */,
+				18662218262D415700CEB929 /* lime_x3dh_xml_rc in Resources */,
+				186621FB262D415700CEB929 /* key2.pem in Resources */,
+				186621EA262D415700CEB929 /* linphonesiteqr_captured.jpg in Resources */,
+				18662252262D415700CEB929 /* michelle_rc_udp in Resources */,
+				1866224B262D415700CEB929 /* pauline_alt_rc in Resources */,
+				18662206262D415700CEB929 /* hello8000_mkv_ref.wav in Resources */,
+				1866224D262D415700CEB929 /* laure_rc_udp in Resources */,
+				18662110262C71B000CEB929 /* InAppSettings.bundle in Resources */,
+				18662203262D415700CEB929 /* sintel_trailer_opus_vp8.mkv in Resources */,
+				18662258262D415700CEB929 /* laure_lime_x3dh_rc in Resources */,
+				186621EC262D415700CEB929 /* linphone.svg in Resources */,
+				1866221E262D415700CEB929 /* marie_remote_localfile_win10_rc in Resources */,
+				1866221B262D415700CEB929 /* zero_length_params_rc in Resources */,
+				1866223A262D415700CEB929 /* marie_dual_proxy_rc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +1073,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186620F4262C71B000CEB929 /* Log.m in Sources */,
+				186620F1262C71B000CEB929 /* LinphoneManager.m in Sources */,
+				186620FE262C71B000CEB929 /* PhoneMainView.m in Sources */,
+				186620F9262C71B000CEB929 /* AudioHelper.m in Sources */,
+				1866210C262C71B000CEB929 /* HSUAudioDataProvider.m in Sources */,
+				1866210A262C71B000CEB929 /* HSUAudioStreamPlayer.m in Sources */,
+				18662101262C71B000CEB929 /* LinphoneCoreSettingsStore.m in Sources */,
+				18662100262C71B000CEB929 /* ProviderDelegate.m in Sources */,
+				186620FF262C71B000CEB929 /* IASKSettingsStore.m in Sources */,
+				186620EE262C71B000CEB929 /* Contact.m in Sources */,
+				18662111262C71B000CEB929 /* main.m in Sources */,
+				18662109262C71B000CEB929 /* HSUAudioCacheControl.m in Sources */,
+				1866210B262C71B000CEB929 /* HSUAudioNetworkControl.m in Sources */,
+				186620F8262C71B000CEB929 /* Utils.m in Sources */,
+				18662112262C71B000CEB929 /* Lin_Utility.m in Sources */,
+				186620F7262C71B000CEB929 /* FastAddressBook.m in Sources */,
+				1866226E262D41A100CEB929 /* EndpointLogIn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,12 +1237,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/linphone-sdk/linphone-sdk/apple-darwin/Frameworks",
+					"$(PROJECT_DIR)/CHLinBinaryFW/Linclasses/linphone-sdk/linphone-sdk/apple-darwin/Frameworks",
+				);
 				INFOPLIST_FILE = CHLinBinaryFW/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CHLinBinaryFW/Linclasses/ExtraClasses",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CHLinBinaryFW;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -364,12 +1269,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/linphone-sdk/linphone-sdk/apple-darwin/Frameworks",
+					"$(PROJECT_DIR)/CHLinBinaryFW/Linclasses/linphone-sdk/linphone-sdk/apple-darwin/Frameworks",
+				);
 				INFOPLIST_FILE = CHLinBinaryFW/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CHLinBinaryFW/Linclasses/ExtraClasses",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CHLinBinaryFW;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

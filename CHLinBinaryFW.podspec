@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CHLinBinaryFW"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "Cocoa pod library to make and receive calls."
 
 
@@ -31,12 +31,14 @@ Pod::Spec.new do |spec|
   spec.author             = { "priyankavachhani@callhippo.com" => "priyankavachhani@callhippo.com" }
   
 
-  # spec.platform     = :ios
-   spec.platform     = :ios, "11.0"
+   spec.platform     = :ios
+  # spec.platform     = :ios, "11.0"
 
   
 
   spec.source       = { :git => "https://github.com/priyankavachhani/CHLinBinaryFW", :tag => "#{spec.version}" }
+  #spec.source       = { :git => "https://gitlab.linphone.org/BC/public/podspec",:tag => "4.3.1" }
+  #spec.source       = { :git => "https://github.com/CocoaPods/Specs.git" ,:tag => "#{spec.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,6 +91,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  #  spec.dependency "linphone-sdk", "4.3.1"
+  #  spec.dependency "linphone-sdk"
 
 end

@@ -1,0 +1,4 @@
+framework module linphonesw {
+    header "linphonesw-Swift.h"
+    requires objc
+}
